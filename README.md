@@ -29,11 +29,12 @@ The half-subtractor is a combinational circuit which is used to perform subtract
 Diff = A’B+AB’ =A ⊕ B
 Borrow = A’B
 
- ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
 
-Figure -02 HALF Subtractor
+![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
+Figure -02HALF Subtractor
 
-**Truthtable**
+### Truthtable
+![image](https://github.com/23004426/HALF_ADDER_SUBTRACTOR/assets/144979327/11390d1d-82dd-47e9-9c36-1acf27ebfd58)
 
 **Procedure**
 
@@ -49,13 +50,27 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
+```
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
-
+Developed by: Tirupathi Jayadeep
+RegisterNumber: 212223240169
+*/
+module half_addsub(a,b,sum,carry,D,Bo);
+input a,b;
+output sum,carry , D, Bo;
+xor G1(sum,a,b);
+and G2(carry,a,b);
+not G4(abar,a);
+xor G3(D,a,b);
+and G5 (Bo,abar,b);
+endmodule
+```
 **RTL Schematic**
+![image](https://github.com/23004426/HALF_ADDER_SUBTRACTOR/assets/144979327/0bba7e3b-d1e7-4234-a4ce-9bc947fbd1be)
 
 **Output/TIMING Waveform**
+![image](https://github.com/23004426/HALF_ADDER_SUBTRACTOR/assets/144979327/5be1704b-582d-4d12-9865-aea24b73c6b2)
 
 **Result:**
+Thus the half adder and half subtractor circuits are designed and the truth tables are verified successfully using quartus software.
