@@ -63,8 +63,12 @@ endmodule
 
 Developed by:Yuvaraj V RegisterNumber:212223230252*/
 
-RTL Schematic Screenshot 2024-03-25 090858
+RTL Schematic Screenshot 
+![image](https://github.com/YuvarajVB/HALF_ADDER_SUBTRACTOR/assets/151488375/91e1e930-8ed9-4d87-aabb-e4464cb4b009)
 
-Output Timing Waveform Screenshot 2024-03-25 091021
+
+Output Timing Waveform Screenshot
+![image](https://github.com/YuvarajVB/HALF_ADDER_SUBTRACTOR/assets/151488375/e9aaefb1-d12e-45e4-ad2f-eec8f10f5f3d)
+
 
 Result: Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
