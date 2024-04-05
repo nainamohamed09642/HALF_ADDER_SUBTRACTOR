@@ -47,6 +47,7 @@ Write the detailed procedure here
 Program:
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+```
 
 module exp04(a,b,c,sum,carry,BO,DIFF);
 input a,b,c;
@@ -60,6 +61,7 @@ not (a0,a);
 assign DIFF = a^b^c;
 assign BO = (a0&b) | (b&c) | (a0&c);
 endmodule
+```
 
 Developed by:Yuvaraj V RegisterNumber:212223230252*/
 
